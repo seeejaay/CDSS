@@ -8,16 +8,14 @@
 }
 
 .wrapper {
-  margin-top: 50px;
+  margin-top: 3.125rem;
   width: 100%;
   min-height: 100vh;
   display: flex;
   justify-content: start;
   align-items: start;
   flex-direction: column;
-  padding: 20px;
+  padding: 2.5rem;
   background: #f9f6ee;
-}
-.txt-theme {
-  color: #1a1a1a;
+  border: 2px solid red;
 }

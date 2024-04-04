@@ -24,7 +24,9 @@
 .hamburger {
   transition: transform 300ms ease;
 }
-
+.txt-theme {
+  color: #1a1a1a;
+}
 .nav-item {
   padding: 0 5px 0 5px !important;
   height: 40px;
