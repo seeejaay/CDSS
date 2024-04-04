@@ -76,3 +76,6 @@
   width: 40px !important;
   height: auto;
 }
+.navbar-brand > h6 {
+  margin-top: 10px;
+}

@@ -26,6 +26,7 @@
 .diabetes-info,
 .guidelines,
 .medications {
-  padding: 1.25rem;
+  padding: 10px;
   border-bottom: 2px solid #9c9c9c;
+  width: 100%;
 }
