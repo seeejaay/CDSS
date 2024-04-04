@@ -35,24 +35,6 @@
   text-align: center;
 }
 
-/* .btn-login {
-  border: 1px solid #929294 !important;
-  color: #000;
-  background: transparent !important;
-  &:hover {
-    background: #d8d6d6 !important;
-    color: #000 !important;
-  }
-}
-.btn-signup {
-  background: #d8d6d6 !important;
-  border: 1px solid #929294 !important;
-  color: #000 !important;
-  &:hover {
-    background: #b8b8bb !important;
-  }
-} */
-
 .i-pos {
   font-family: "Font Awesome 5 Free", sans-serif !important;
   color: #e29d35 !important;
