@@ -175,22 +175,8 @@ window.addEventListener("load", () => {
   if (savedTheme === "dark") {
     changeSmall.click();
     changeLarge.click();
-  } else if (savedTheme === "light") {
-    changeSmall.click();
-    changeLarge.click();
-  }
-});
-window.addEventListener("resize", updateButtonVisibility);
-updateButtonVisibility();
-
-// On page load, check for saved theme in localStorage and apply it
-window.addEventListener("load", () => {
-  const savedTheme = localStorage.getItem("theme");
-  if (savedTheme === "dark") {
-    changeSmall.click();
-    changeLarge.click();
   } else {
-    // If there's no saved theme or it's 'light', simulate a click on 'changeSmall' and 'changeLarge' to set the theme to light
+    // If no theme is saved or the saved theme is light, set to light mode
     changeThemeS.classList.remove("fa-sun");
     changeThemeS.classList.add("fa-moon");
     changeThemeL.classList.remove("fa-sun");
@@ -202,6 +188,7 @@ window.addEventListener("load", () => {
     wrapper.style.background = "#f9f6ee";
     wrapper.style.color = "black";
     txtTheme.forEach((c) => (c.style.color = "#000"));
-    localStorage.setItem("theme", "light");
   }
 });
+window.addEventListener("resize", updateButtonVisibility);
+updateButtonVisibility();
