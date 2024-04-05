@@ -34,5 +34,14 @@
 
   h3 {
     padding: 20px 0 20px 0;
+    font-weight: 700;
+  }
+
+  ul > li {
+    margin: 10px 0px 10px 0;
+  }
+  h5 {
+    padding: 10px 0 10px 0;
+    font-weight: 500;
   }
 }
