@@ -25,15 +25,14 @@
 
 .diabetes-info,
 .guidelines,
-.lifestyle {
+.lifestyle,
+.monitoring,
+.complications {
   padding: 10px;
   border-bottom: 2px solid #9c9c9c;
   width: 100%;
 
   h3 {
     padding: 20px 0 20px 0;
-  }
-  ul {
-    list-style: none;
   }
 }
