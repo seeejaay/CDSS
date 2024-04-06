@@ -27,7 +27,8 @@
 .guidelines,
 .lifestyle,
 .monitoring,
-.complications {
+.complications,
+.drugResearch {
   padding: 10px;
   border-bottom: 2px solid #9c9c9c;
   width: 100%;
@@ -40,8 +41,12 @@
   ul > li {
     margin: 10px 0px 10px 0;
   }
-  h5 {
+  h5,
+  h4 {
     padding: 10px 0 10px 0;
     font-weight: 500;
+  }
+  p {
+    text-align: justify;
   }
 }
