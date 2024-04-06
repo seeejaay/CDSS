@@ -1,7 +1,7 @@
-const openProf = document.getElementById("_profile");
+const openHome = document.getElementById("_home");
 const openAssess = document.getElementById("_assessment");
-openProf.addEventListener("click", () => {
-  window.open("./profile.html", "_self");
+openHome.addEventListener("click", () => {
+  window.open("./index.html", "_self");
 });
 
 openAssess.addEventListener("click", () => {
