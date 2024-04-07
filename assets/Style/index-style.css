@@ -58,7 +58,8 @@
 .plate-text > p,
 .activity > p,
 .management > p,
-.monitoring > p {
+.monitoring > p,
+.drugResearch > p {
   padding: 20px 0 20px 0;
   text-indent: 3rem;
 }
