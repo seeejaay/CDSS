@@ -28,6 +28,9 @@
 .index,
 .plate-method,
 .activity,
+.management,
+.monitoring,
+.complications,
 .drugResearch {
   padding: 10px;
   border-bottom: 2px solid #9c9c9c;
@@ -52,10 +55,10 @@
 }
 
 .overview > p,
-.lifestyle > p,
-.index > p,
 .plate-text > p,
-.activity > p {
+.activity > p,
+.management > p,
+.monitoring > p {
   padding: 20px 0 20px 0;
   text-indent: 3rem;
 }
