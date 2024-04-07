@@ -99,7 +99,7 @@ changeSmall.addEventListener("click", () => {
     navColor.classList.add("navbar-light");
 
     // BODY BACKGROUND
-    wrapper.style.background = "#f9f6ee";
+    wrapper.style.background = "#fffff0";
     wrapper.style.color = "black";
 
     //TEXT COLOR
@@ -158,7 +158,7 @@ changeLarge.addEventListener("click", () => {
     navColor.classList.add("navbar-light");
 
     // BODY BACKGROUND
-    wrapper.style.background = "#f9f6ee";
+    wrapper.style.background = "#fffff0";
     wrapper.style.color = "black";
 
     //TEXT COLOR
@@ -185,7 +185,7 @@ window.addEventListener("load", () => {
     navColor.classList.add("bg-light");
     navColor.classList.remove("navbar-dark");
     navColor.classList.add("navbar-light");
-    wrapper.style.background = "#f9f6ee";
+    wrapper.style.background = "#fffff0";
     wrapper.style.color = "black";
     txtTheme.forEach((c) => (c.style.color = "#000"));
   }
