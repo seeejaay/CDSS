@@ -24,10 +24,9 @@
 }
 
 .diabetes-info,
-.guidelines,
 .lifestyle,
-.monitoring,
-.complications,
+.index,
+.plate-method,
 .drugResearch {
   padding: 10px;
   border-bottom: 2px solid #9c9c9c;
@@ -48,5 +47,55 @@
   }
   p {
     text-align: justify;
+  }
+}
+
+.overview > p,
+.lifestyle > p,
+.index > p,
+.plate-text > p {
+  padding: 20px 0 20px 0;
+  text-indent: 3rem;
+}
+p.source {
+  text-indent: 0;
+  padding: 0 0 10px 0;
+  cursor: pointer;
+  width: fit-content;
+  text-decoration: underline;
+  float: right;
+  &:hover {
+    color: #9c9c9c !important;
+  }
+}
+
+p.no-indent {
+  text-indent: 0;
+  width: 100%;
+  max-width: 50rem;
+}
+
+.plate-image {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  img {
+    width: 100%;
+    max-width: 300px;
+    filter: drop-shadow(0px 2px 10px #1f1b1b);
+  }
+}
+.plate-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .plate-image {
+    display: none;
   }
 }
