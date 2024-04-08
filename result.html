@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DIKW Theory | CDSS</title>
+    <title>Assessment | CDSS</title>
 
     <link rel="stylesheet" href="./assets/Style/header.css" />
-    <link rel="stylesheet" href="./assets/Style/dikw.css" />
+    <link rel="stylesheet" href="./assets/Style/question-style.css" />
 
     <link
       rel="stylesheet"
@@ -67,14 +67,15 @@
                 <a class="nav-link" id="_assessment">Care Plan</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" id="_dikw">DIKW Theory</a>
+                <a class="nav-link" id="_dikw">DIKW Theory</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" id="_question">Result</a>
+                <a class="nav-link active" id="_question">Result</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" id="_result">Assessment</a>
               </li>
+
               <li class="nav-item">
                 <button id="_changeThemeConL" type="button" class="btn i-pos">
                   <i class="fas fa-moon fa" id="_changeThemeL"></i>
@@ -86,44 +87,9 @@
       </nav>
     </header>
     <main class="wrapper">
-      <h1 class="txt-theme">The DIKW Theory</h1>
-      <section class="dikw-info">
-        <h4 class="txt-theme">CDSS based on DIKW Theory</h4>
-        <h5 class="txt-theme">Data</h5>
-        <p class="txt-theme txt-indent">- Patient has type 2 diabetes.</p>
-
-        <h5 class="txt-theme">Information</h5>
-        <p class="txt-thene txt-indent">
-          - Trend analysis of HbA1c levels over the past year Changes in
-          lifestyle factors reported by the patient during follow-up visits
-        </p>
-
-        <h5 class="txt-theme">Deciding Triggers</h5>
-        <p class="txt-theme txt-indent">
-          - Need to explore potential reasons for treatment failure or
-          inadequate glycemic control.
-        </p>
-        <p class="txt-theme">
-          <strong class="txt-theme">Decision:</strong
-          ><span class="txt-theme"></span> Explore how lifestyle factors may be
-          impacting glycemic control.
-        </p>
-        <p class="txt-theme">
-          Discuss changes in diet, physical activity, stress levels, sleep
-          patterns, and other lifestyle habits with the patient to identify
-          potential contributors to treatment failure or inadequate glycemic
-          control.
-        </p>
-
-        <h5 class="txt-theme">Knowledge</h5>
-        <p class="txt-theme txt-indent">
-          - Patient will or may modify his lifestyle.
-        </p>
-
-        <h5 class="txt-theme">Wisdom</h5>
-        <p class="txt-theme txt-indent">
-          - Modified changes in lifestyle will influence glycemic control.
-        </p>
+      <h1 class="txt-theme">Assessment Result</h1>
+      <section class="question">
+        <h1 class="txt-theme" id="_noAnswered">No Questions Answered Yet</h1>
       </section>
     </main>
     <script
@@ -132,6 +98,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="./assets/JS/darkmode.js"></script>
-    <script src="./assets/JS/dikw.js"></script>
+
+    <script src="./assets/JS/question.js"></script>
   </body>
 </html>

@@ -3,10 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DIKW Theory | CDSS</title>
-
-    <link rel="stylesheet" href="./assets/Style/header.css" />
-    <link rel="stylesheet" href="./assets/Style/dikw.css" />
+    <title>Question | CDSS</title>
 
     <link
       rel="stylesheet"
@@ -22,6 +19,9 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+
+    <link rel="stylesheet" href="./assets/Style/header.css" />
+    <link rel="stylesheet" href="./assets/Style/questionnaire.css" />
   </head>
   <body>
     <header class="w-100">
@@ -67,13 +67,13 @@
                 <a class="nav-link" id="_assessment">Care Plan</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" id="_dikw">DIKW Theory</a>
+                <a class="nav-link" id="_dikw">DIKW Theory</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" id="_question">Result</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" id="_result">Assessment</a>
+                <a class="nav-link active" id="_result">Assessment</a>
               </li>
               <li class="nav-item">
                 <button id="_changeThemeConL" type="button" class="btn i-pos">
@@ -86,44 +86,60 @@
       </nav>
     </header>
     <main class="wrapper">
-      <h1 class="txt-theme">The DIKW Theory</h1>
-      <section class="dikw-info">
-        <h4 class="txt-theme">CDSS based on DIKW Theory</h4>
-        <h5 class="txt-theme">Data</h5>
-        <p class="txt-theme txt-indent">- Patient has type 2 diabetes.</p>
+      <h1 class="txt-theme">Questionnaire</h1>
+      <section class="questions">
+        <form>
+          <div class="question-answer">
+            <h5 class="txt-theme">
+              Are you experiencing any symptoms such as increased thirst,
+              frequent urination, or unexplained weight loss?
+            </h5>
+            <div class="choices">
+              <label class="txt-theme">
+                <input type="radio" name="question1" value="option1" />
+                Yes, Frequently
+              </label>
+              <label class="txt-theme">
+                <input type="radio" name="question1" value="option2" />
+                Occassionally
+              </label>
+              <label class="txt-theme">
+                <input type="radio" name="question1" value="option3" />
+                Rarely
+              </label>
+              <label class="txt-theme">
+                <input type="radio" name="question1" value="option4" />
+                Never
+              </label>
+              <label class="txt-theme">
+                <input type="radio" name="question1" value="option5" />
+                Unsure
+              </label>
+            </div>
+          </div>
 
-        <h5 class="txt-theme">Information</h5>
-        <p class="txt-thene txt-indent">
-          - Trend analysis of HbA1c levels over the past year Changes in
-          lifestyle factors reported by the patient during follow-up visits
-        </p>
+          <div class="question-answer">
+            <h5 class="txt-theme">
+              When was the last time you had your HbA1c levels checked?
+            </h5>
+            <label class="txt-theme">
+              <input type="radio" name="question2" value="option1" />
+              Option 1
+            </label>
+            <label class="txt-theme">
+              <input type="radio" name="question2" value="option2" />
+              Option 2
+            </label>
+            <label class="txt-theme">
+              <input type="radio" name="question2" value="option3" />
+              Option 3
+            </label>
+          </div>
 
-        <h5 class="txt-theme">Deciding Triggers</h5>
-        <p class="txt-theme txt-indent">
-          - Need to explore potential reasons for treatment failure or
-          inadequate glycemic control.
-        </p>
-        <p class="txt-theme">
-          <strong class="txt-theme">Decision:</strong
-          ><span class="txt-theme"></span> Explore how lifestyle factors may be
-          impacting glycemic control.
-        </p>
-        <p class="txt-theme">
-          Discuss changes in diet, physical activity, stress levels, sleep
-          patterns, and other lifestyle habits with the patient to identify
-          potential contributors to treatment failure or inadequate glycemic
-          control.
-        </p>
+          <!-- Add more questions here -->
 
-        <h5 class="txt-theme">Knowledge</h5>
-        <p class="txt-theme txt-indent">
-          - Patient will or may modify his lifestyle.
-        </p>
-
-        <h5 class="txt-theme">Wisdom</h5>
-        <p class="txt-theme txt-indent">
-          - Modified changes in lifestyle will influence glycemic control.
-        </p>
+          <button type="submit">Submit</button>
+        </form>
       </section>
     </main>
     <script
@@ -132,6 +148,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="./assets/JS/darkmode.js"></script>
-    <script src="./assets/JS/dikw.js"></script>
+    <script src="./assets/JS/questionnaire.js"></script>
   </body>
 </html>

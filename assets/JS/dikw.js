@@ -3,6 +3,8 @@ const openAssess = document.getElementById("_assessment");
 const openDikw = document.getElementById("_dikw");
 const openProf = document.getElementById("_profile");
 const openDrug = document.getElementById("_drug");
+const openQuestion = document.getElementById("_question");
+const openResult = document.getElementById("_result");
 openHome.addEventListener("click", () => {
   window.open("./index.html", "_self");
 });
@@ -19,4 +21,7 @@ openProf.addEventListener("click", () => {
 });
 openDrug.addEventListener("click", () => {
   window.open("./drugResearch.html", "_self");
+});
+openQuestion.addEventListener("click", () => {
+  window.open("./result.html", "_self");
 });
