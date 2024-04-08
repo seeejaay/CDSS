@@ -1,8 +1,7 @@
 const openProf = document.getElementById("_profile");
 const openAssess = document.getElementById("_assessment");
-const openSource = document.getElementById("_source");
 const openDikw = document.getElementById("_dikw");
-const openDrug = document.getElementById("_drug");
+const openHome = document.getElementById("_home");
 openProf.addEventListener("click", () => {
   window.open("./profile.html", "_self");
 });
@@ -14,13 +13,6 @@ openAssess.addEventListener("click", () => {
 openDikw.addEventListener("click", () => {
   window.open("./dikw.html", "_self");
 });
-openSource.addEventListener("click", () => {
-  window.open(
-    "https://www.who.int/health-topics/diabetes#tab=tab_1",
-    "_blank "
-  );
-});
-
-openDrug.addEventListener("click", () => {
-  window.open("./drugResearch.html", "_self");
+openHome.addEventListener("click", () => {
+  window.open("./index.html", "_self");
 });

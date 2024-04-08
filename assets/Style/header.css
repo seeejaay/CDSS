@@ -27,6 +27,9 @@
 .txt-theme {
   color: #1a1a1a;
 }
+.txt-size {
+  font-size: 14px;
+}
 .nav-item {
   padding: 0 5px 0 5px !important;
   height: 40px;

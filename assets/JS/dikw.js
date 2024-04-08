@@ -18,5 +18,5 @@ openProf.addEventListener("click", () => {
   window.open("./profile.html", "_self");
 });
 openDrug.addEventListener("click", () => {
-  window.open("./drug.html", "_self");
+  window.open("./drugResearch.html", "_self");
 });
