@@ -32,6 +32,7 @@
 }
 .qna {
   width: 100%;
+  border-bottom: 1px solid #9c9c9c;
   .break-W {
     text-indent: 60px;
   }
@@ -47,5 +48,51 @@
       padding-bottom: 20px;
       text-align: justify;
     }
+  }
+}
+
+.diagnosis,
+.analysis,
+.planning,
+.intervention,
+.rationale,
+.evaluation {
+  width: 100%;
+  border-bottom: 1px solid #9c9c9c;
+
+  h4 {
+    padding: 20px 0 20px 0;
+  }
+  h5 {
+    text-indent: 60px;
+    padding: 10px 0 20px 0;
+  }
+  p {
+    padding: 20px 0 0 0;
+    text-align: justify;
+  }
+}
+
+.txt-float {
+  float: right;
+  padding: 0 0 20px 0;
+}
+
+.planning,
+.intervention,
+.rationale,
+.analysis,
+.evaluation {
+  h5 {
+    text-indent: 0;
+  }
+  li {
+    padding: 10px 0 10px 0;
+  }
+}
+.rationale {
+  h5 {
+    padding: 40px 0 10px 0;
+    text-align: justify;
   }
 }
