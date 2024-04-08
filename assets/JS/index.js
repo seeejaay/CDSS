@@ -2,6 +2,7 @@ const openProf = document.getElementById("_profile");
 const openAssess = document.getElementById("_assessment");
 const openSource = document.getElementById("_source");
 const openDikw = document.getElementById("_dikw");
+const openDrug = document.getElementById("_drug");
 openProf.addEventListener("click", () => {
   window.open("./profile.html", "_self");
 });
@@ -18,4 +19,8 @@ openSource.addEventListener("click", () => {
     "https://www.who.int/health-topics/diabetes#tab=tab_1",
     "_blank "
   );
+});
+
+openDrug.addEventListener("click", () => {
+  window.open("./drug.html", "_self");
 });

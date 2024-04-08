@@ -1,6 +1,7 @@
 const openHome = document.getElementById("_home");
 const openAssess = document.getElementById("_assessment");
 const openDikw = document.getElementById("_dikw");
+const openDrug = document.getElementById("_drug");
 openHome.addEventListener("click", () => {
   window.open("./index.html", "_self");
 });
@@ -11,4 +12,8 @@ openAssess.addEventListener("click", () => {
 
 openDikw.addEventListener("click", () => {
   window.open("./dikw.html", "_self");
+});
+
+openDrug.addEventListener("click", () => {
+  window.open("./drug.html", "_self");
 });
