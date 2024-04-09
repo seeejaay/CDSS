@@ -81,6 +81,10 @@ function loadSavedAnswers() {
       input.disabled = false;
     });
     return;
+  } else {
+    inputElements.forEach(function (input) {
+      input.disabled = true;
+    });
   }
 
   // Set the values of the input elements according to the saved answers
