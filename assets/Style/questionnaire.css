@@ -42,7 +42,71 @@
 
     .choices {
       width: 100%;
-      text-align: center;
+      text-align: justify;
+      display: flex;
+      flex-direction: column;
     }
   }
+}
+.blood-pressure {
+  h3 {
+    padding: 20px 0 20px 0;
+  }
+
+  .systolic,
+  .diastolic,
+  .pulse,
+  .temperature {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  h5 {
+    padding: 20px 0 0 0;
+  }
+  label {
+    padding: 0 0 20px 0;
+  }
+}
+
+.edit {
+  width: 120px;
+  padding: 10px;
+  margin: 20px;
+  background: #e29d35;
+  color: #fffff0 !important;
+  border: 0;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  &:hover {
+    filter: brightness(1.1);
+  }
+}
+
+.buttons {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="number"] {
+  width: 80px;
+  text-align: center;
+  appearance: text !important;
+  font-size: 18px;
+  padding: 3px 0 3px 0;
+
+  &:focus {
+    border: 2px solid #e29d35;
+  }
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
 }
