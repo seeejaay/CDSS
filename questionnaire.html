@@ -515,19 +515,30 @@
                   name="systolic"
                   placeholder="120"
                   min="1"
+                  id="_systolic"
                 />
               </label>
             </div>
             <div class="diastolic">
               <h5 class="txt-theme">Diastolic</h5>
               <label class="txt-theme"
-                ><input type="number" name="diastolic" placeholder="80" min="1"
+                ><input
+                  type="number"
+                  name="diastolic"
+                  placeholder="80"
+                  min="1"
+                  id="_diastolic"
               /></label>
             </div>
             <div class="pulse">
               <h5 class="txt-theme">Heart Rate (Pulse)</h5>
               <label class="txt-theme"
-                ><input type="number" name="pulse" placeholder="70" min="1"
+                ><input
+                  type="number"
+                  name="pulse"
+                  placeholder="70"
+                  min="1"
+                  id="_pulse"
               /></label>
             </div>
             <div class="resprate">
@@ -538,12 +549,18 @@
                   name="respiratory"
                   placeholder="16"
                   min="1"
+                  id="_respRate"
               /></label>
             </div>
             <div class="temp">
               <h5 class="txt-theme">Temperature</h5>
               <label class="txt-theme"
-                ><input type="number" name="temp" placeholder="37.5" min="1"
+                ><input
+                  type="number"
+                  name="temp"
+                  placeholder="37.5"
+                  min="1"
+                  id="_temp"
               /></label>
             </div>
 
@@ -555,12 +572,13 @@
                   name="saturation"
                   placeholder="99"
                   min="1"
+                  id="_oxygenSat"
               /></label>
             </div>
           </section>
           <!-- Add more questions here -->
           <div class="buttons">
-            <button id="_submit" class="txt-theme edit">Submit</button>
+            <button id="_submit" class="txt-theme submit">Submit</button>
             <button id="_edit" class="txt-theme edit">Edit</button>
           </div>
         </form>
