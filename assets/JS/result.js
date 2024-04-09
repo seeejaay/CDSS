@@ -102,12 +102,6 @@ function loadSavedAnswers() {
   });
 }
 
-// Run the function when the page loads
-window.onload = loadSavedAnswers;
-
-// Run the function when the page loads
-window.onload = loadSavedAnswers;
-
 // Select the systolic and diastolic input fields
 const systolicInput = document.querySelector("#_systolic");
 const diastolicInput = document.querySelector("#_diastolic");
@@ -212,7 +206,6 @@ async function checkValues() {
     oxygenSat.style.color = "#ffffff";
   }
 }
-
 // Attach the function to the input event of the input fields
 systolicInput.addEventListener("input", checkValues);
 diastolicInput.addEventListener("input", checkValues);
@@ -220,3 +213,8 @@ pulse.addEventListener("input", checkValues);
 respRate.addEventListener("input", checkValues);
 temp.addEventListener("input", checkValues);
 oxygenSat.addEventListener("input", checkValues);
+// Run the function when the page loads
+window.onload = function () {
+  loadSavedAnswers();
+  checkValues();
+};
