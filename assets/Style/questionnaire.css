@@ -79,16 +79,18 @@
   background: transparent;
   border: 0;
   border-radius: 20px;
-  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+
   font-size: 20px;
   &:hover {
     filter: brightness(1.1);
     background: #e29d35;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
   }
 }
 
 .submit {
   background: #e29d35;
+  color: #fff !important;
 }
 .buttons {
   width: 100%;
